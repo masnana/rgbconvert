@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+body {
+  font-size: 22px;
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  background: #424242;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  font-size: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  margin-inline-end: 60vh;
+}
+
+input.text {
+  border: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 150px;
+  height: 35px;
+  padding-left: 5px;
+  font-size: 22px;
+}
+
+.arrow {
+  margin-inline: 5vh;
+}
+
+.colors-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  margin: 2vh;
+}
+.colors {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 10px;
+}
+
+.colorgroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: black 2px solid;
+  padding: 2vh;
+}
+
+.colorlabel {
+  margin-block: 3vh;
+}
+
+.color {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.color .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.color:hover .tooltiptext {
+  visibility: visible;
+}
+
+.credit {
+  position: sticky;
+  bottom: 1vh;
+  font-size: 3vh;
+}

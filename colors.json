@@ -1,0 +1,207 @@
+{
+    "vertex color ped": [
+        {
+            "color": "#ff8000",
+            "desc": "DEFAULT"
+        },
+        {
+            "color": "#f51a00",
+            "desc": "DESC HERE"
+        },
+        {
+            "color": "#febaff",
+            "desc": "GLOWING PED_EMISSIVE SHADER"
+        }
+    ],
+    "skin": [
+        {
+            "color": "#ee20e7",
+            "desc": "NORMAL SKIN COLOR"
+        },
+        {
+            "color": "#b524e6",
+            "desc": "MEDIUM SKIN COLOR"
+        },
+        {
+            "color": "#1b0cff",
+            "desc": "DARK SKIN COLOR"
+        },
+        {
+            "color": "#5816e7",
+            "desc": "UNUSED ?"
+        },
+        {
+            "color": "#4171e5",
+            "desc": "SKIN INJURED"
+        },
+        {
+            "color": "#082609",
+            "desc": "MP HAIR/EYEBROWS"
+        },
+        {
+            "color": "#88c508",
+            "desc": "MP CUSTOMIZATION"
+        },
+        {
+            "color": "#b936f6",
+            "desc": "LIPSTICKS"
+        },
+        {
+            "color": "#f8a9f0",
+            "desc": "REGULAR LIPS"
+        },
+        {
+            "color": "#c55bdd",
+            "desc": "AGATHA"
+        },
+        {
+            "color": "#ff50fe",
+            "desc": "TRACEY"
+        },
+        {
+            "color": "#ac79fe",
+            "desc": "AMANDA"
+        },
+        {
+            "color": "#2c3817",
+            "desc": "S_F_Y_HOOKER_01 CORSET"
+        },
+        {
+            "color": "#794701",
+            "desc": "STRIPPER BOOTS CORSET"
+        }        
+        
+    ],
+    "spec texture color": [
+        {
+            "color": "#161d3b",
+            "desc": "SHIRT 1"
+        },
+        {
+            "color": "#31344a",
+            "desc": "SHIRT 2"
+        },
+        {
+            "color": "#201e3a",
+            "desc": "SHIRT 3"
+        },
+        {
+            "color": "#101e47",
+            "desc": "SWEATER"
+        },
+        {
+            "color": "#6d1f19",
+            "desc": "WINTER COAT"
+        },
+        {
+            "color": "#3d3c18",
+            "desc": "WINTER COAT #2 TOP PART"
+        },
+        {
+            "color": "#161e69",
+            "desc": "WINTER COAT BOTTOM PART"
+        },
+        {
+            "color": "#b83118",
+            "desc": "PUFFER JACKET SHIRT BUTTONS"
+        },
+        {
+            "color": "#462f17",
+            "desc": "DENIM JACKET BAYWATCH SWIMSUIT"
+        },
+        {
+            "color": "#151f00",
+            "desc": "BOILER SUIT"
+        },
+        {
+            "color": "#742f19",
+            "desc": "GLOVE PANTS? BIKINI BELTS"
+        },
+        {
+            "color": "#202007",
+            "desc": "SOME BOOTS"
+        },
+        {
+            "color": "#07443b",
+            "desc": "CLOTHING DIRT (TREVOR)"
+        },
+        {
+            "color": "#91e82e",
+            "desc": "BELT"
+        },
+        {
+            "color": "#b8302e",
+            "desc": "PATTERN"
+        },
+        {
+            "color": "#371f19",
+            "desc": "SUIT VEST"
+        },
+        {
+            "color": "#7a4901",
+            "desc": "SUIT SHOES"
+        },
+        {
+            "color": "#211c7d",
+            "desc": "TIE"
+        },
+        {
+            "color": "#958a0a",
+            "desc": "TUXEDO/UNIFORM SHINY"
+        },
+        {
+            "color": "#833418",
+            "desc": "TUXEDO/UNIFORM SHINY (MPAPARTMENT)"
+        },
+        {
+            "color": "#191d5b",
+            "desc": "TUXEDO/UNIFORM #1"
+        },
+        {
+            "color": "#6e1658",
+            "desc": "TUXEDO/UNIFORM #2"
+        },
+        {
+            "color": "#3f4179",
+            "desc": "TUXEDO/UNIFORM #3"
+        },
+        {
+            "color": "#e63c38",
+            "desc": "SATIN CLOTHING"
+        }
+    ],
+    "object shader": [
+        {
+            "color": "#ee20e7",
+            "desc": "DEFAULT ?"
+        },
+        {
+            "color": "#004000",
+            "desc": "GREEN ?"
+        },
+        {
+            "color": "#000080",
+            "desc": "BLUE ?"
+        },
+        {
+            "color": "#00f9ff",
+            "desc": "GLASS 1"
+        },
+        {
+            "color": "#67c600",
+            "desc": "GLASS 2"
+        },
+        {
+            "color": "#f7f8d5",
+            "desc": "WET"
+        },
+        {
+            "color": "#ffffff",
+            "desc": "SHINY"
+        },
+        {
+            "color": "#e2c809",
+            "desc": "METAL"
+        }
+    ]
+}

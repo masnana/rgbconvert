@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Colors</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="inputs">
+			<label for="red">Red</label>
+			<div class=results>
+				<input type="number" min="0" max="255" class="text" name="red" id="rInput" />
+				<span class="arrow"> ==> </span>
+				<div id="redPercent"> 0.000000</div>
+				<button onclick="copyValue('redPercent')">Copy</button>
+			</div>
+
+			<label for="green">Green</label>
+			<div class=results>
+				<input type="number" min="0" max="255" class="text" name="green" id="gInput" />
+				<span class="arrow green"> ==> </span>
+				<div id="greenPercent"> 0.000000</div>
+				<button onclick="copyValue('greenPercent')">Copy</button>
+			</div>
+
+			<label for="blue">Blue</label>
+			<div class=results>
+				<input type="number" min="0" max="255" class="text" name="blue" id="bInput" />
+				<span class="arrow blue"> ==> </span>
+				<div id="bluePercent"> 0.000000</div>
+				<button onclick="copyValue('bluePercent')">Copy</button>
+			</div>
+
+			<label for="hex">HEX</label>
+			<input type="text" class="text" name="hex" id="hexInput" />
+		</div>
+	</div>
+
+	<div class="colors-container">
+
+	</div>
+	
+	<a class="credit" style="color: azure;" href="README.md">CREDITS</a>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
