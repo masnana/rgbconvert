@@ -41,7 +41,7 @@ function toPercent(v) {
 
 // Function to copy value to clipboard
 function copyValue(percentId) {
-    const copyText = document.getElementById(percentId).innerHTML;
+    const copyText = document.getElementById(percentId).innerHTML || document.getElementById(percentId).value;    
     navigator.clipboard.writeText(copyText);
 }
 
